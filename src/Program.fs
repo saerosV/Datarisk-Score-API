@@ -58,11 +58,9 @@ let indexHandler (name : string) =
 
 let webApp =
     choose [
-        GET >=>
-            choose [
-                route "/" >=> indexHandler "world"
-                routef "/hello/%s" indexHandler
-            ]
+        GET  >=> route "/score" >=> 
+        POST >=> route "/score" >=>
+        
         setStatusCode 404 >=> text "Not Found" ]
 
 // ---------------------------------
