@@ -8,16 +8,8 @@ open Microsoft.AspNetCore.Hosting
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
+open Routing
 open Giraffe
-
-// ---------------------------------
-// Models
-// ---------------------------------
-
-type Message =
-    {
-        Text : string
-    }
 
 // ---------------------------------
 // Views
@@ -45,23 +37,6 @@ module Views =
             partial()
             p [] [ encodedText model.Text ]
         ] |> layout
-
-// ---------------------------------
-// Web app
-// ---------------------------------
-
-let indexHandler (name : string) =
-    let greetings = sprintf "Hello %s, from Giraffe!" name
-    let model     = { Text = greetings }
-    let view      = Views.index model
-    htmlView view
-
-let webApp =
-    choose [
-        GET  >=> route "/score" >=> 
-        POST >=> route "/score" >=>
-        
-        setStatusCode 404 >=> text "Not Found" ]
 
 // ---------------------------------
 // Error handler
