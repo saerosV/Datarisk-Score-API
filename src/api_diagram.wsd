@@ -1,0 +1,9 @@
+title Datarisk Score API
+
+POST->+Endpoint:CPF
+Endpoint-->POST: score
+Endpoint->+Database:newUser(cpf, score, created_at)
+GET->Endpoint:cpf
+Endpoint->Database:cpf
+Database-->Endpoint:score
+Endpoint-->GET:score 
