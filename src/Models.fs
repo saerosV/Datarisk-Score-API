@@ -1,6 +1,19 @@
 module Models
 
-type Message =
+/// TODO:
+/// Constrain CPF
+
+[<CLIMutable>]
+type CPF =
+
     {
-        Text : string
+        CPF : string
+    }
+
+[<CLIMutable>]
+type NewUser =
+    {
+        CPF : string
+        Score : int
+        CreatedAt: string
     }

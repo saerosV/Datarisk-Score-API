@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rH9S1IaPDKz5VWqk1gJZ4u0apZvhyfG9vj3ydCPTm9NeB8omqsD5cPM3HxPkM9qscsmNr0+4FFpjpsj6t6zp2Q==",
+  "dgSpecHash": "DXYrMJB9TKlujFdA3zJWwylHdJqgVOpMlpqi7lYn738U5KV3LFevhGlMf+Jhyabal1K+lhLw8jjse68jg0pvXA==",
   "success": true,
   "projectFilePath": "/home/gtard/Desktop/API/Datarisk-Score-API/src/Datarisk-Score-API.fsproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "/home/gtard/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/home/gtard/.nuget/packages/npgsql/5.0.3/npgsql.5.0.3.nupkg.sha512",
+    "/home/gtard/.nuget/packages/npgsql.fsharp/4.0.0/npgsql.fsharp.4.0.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/ply/0.3.1/ply.0.3.1.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
@@ -19,6 +21,7 @@
     "/home/gtard/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/home/gtard/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512",
     "/home/gtard/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",

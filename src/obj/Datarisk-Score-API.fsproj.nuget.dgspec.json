@@ -49,6 +49,10 @@
               "version": "[1.3.*, )",
               "generatePathProperty": true
             },
+            "Npgsql.FSharp": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Ply": {
               "target": "Package",
               "version": "[0.3.*, )",
