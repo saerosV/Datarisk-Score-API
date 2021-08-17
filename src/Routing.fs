@@ -57,7 +57,7 @@ let handleGET: HttpHandler =
 
         //match cpfExists (cpf) with
         //| false -> RequestErrors.BAD_REQUEST "The cpf is not on the database"
-        //| _ -> Successful.OK "add function the gets the score and created_at"
+        //| _ -> Successful.OK //add function that gets {score,created_at}
 
 
 let handlePOST : HttpHandler =
