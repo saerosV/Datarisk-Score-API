@@ -5,7 +5,6 @@ module Models
 
 [<CLIMutable>]
 type CPF =
-
     {
         CPF : string
     }
@@ -16,4 +15,11 @@ type NewUser =
         CPF : string
         Score : int
         CreatedAt: string
+    }
+
+[<CLIMutable>]
+type GetOutput =
+    {
+        Score : int
+        CreatedAt : string
     }
